@@ -1,9 +1,33 @@
 /*homepage css*/
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 body {
     background-color: #D1CAC0;
 }
-
-
+.content {
+    display: flex;
+}
+#aboutme-div {
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+    
+}
+#pets-div {
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+#learning {
+    border: 5px solid black;
+    margin: 5px;
+    padding: 5px;
+}
 
 #pongo-img {
     width: 500px;
