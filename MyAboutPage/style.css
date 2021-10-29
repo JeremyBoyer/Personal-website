@@ -12,21 +12,14 @@ body {
 .content {
     display: flex;
 }
-#aboutme-div {
-    border: 5px solid black;
-    margin: 5px;
-    padding: 5px;
-    
-}
-#pets-div {
-    border: 5px solid black;
-    margin: 5px;
-    padding: 5px;
-}
+#aboutme-div,
+#pets-div,
 #learning {
-    border: 5px solid black;
+    border: 15px solid #362204;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
+    width: 33%;
+    background-color: #F5F5F5;
 }
 
 #pongo-img {
